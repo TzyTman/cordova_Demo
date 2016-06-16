@@ -1,0 +1,10 @@
+PODS:
+  - Cordova (4.0.1)
+
+DEPENDENCIES:
+  - Cordova (~> 4.0.1)
+
+SPEC CHECKSUMS:
+  Cordova: a83108a483fe01d06ecabb9d83bdbf773cb8b22c
+
+COCOAPODS: 0.39.0

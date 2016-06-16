@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E3F4FBEB456A0C65F4FFB9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A2A996C8BF56B6D467B46B /* libPods.a */; };
+		857D05C51D0FF2E3001B97E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 857D05C41D0FF2E3001B97E0 /* main.m */; };
+		857D05C81D0FF2E3001B97E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 857D05C71D0FF2E3001B97E0 /* AppDelegate.m */; };
+		857D05CB1D0FF2E3001B97E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857D05CA1D0FF2E3001B97E0 /* ViewController.m */; };
+		857D05D01D0FF2E3001B97E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857D05CF1D0FF2E3001B97E0 /* Assets.xcassets */; };
+		857D05D31D0FF2E3001B97E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857D05D11D0FF2E3001B97E0 /* LaunchScreen.storyboard */; };
+		857D05DB1D0FF2FC001B97E0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 857D05DA1D0FF2FC001B97E0 /* Podfile */; };
+		857D05DD1D0FF46A001B97E0 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 857D05DC1D0FF46A001B97E0 /* config.xml */; };
+		857D05E01D0FF5BB001B97E0 /* CordovaManageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 857D05DF1D0FF5BB001B97E0 /* CordovaManageVC.m */; };
+		858238D11D10FDB400E8C503 /* CPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 858238D01D10FDB400E8C503 /* CPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F4100D178481886DC49E3B5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6E4A9CB9C37E9526EE3CEA76 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		857D05C01D0FF2E3001B97E0 /* cordova_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cordova_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		857D05C41D0FF2E3001B97E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		857D05C61D0FF2E3001B97E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		857D05C71D0FF2E3001B97E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		857D05C91D0FF2E3001B97E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		857D05CA1D0FF2E3001B97E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		857D05CF1D0FF2E3001B97E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		857D05D21D0FF2E3001B97E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		857D05D41D0FF2E3001B97E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857D05DA1D0FF2FC001B97E0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		857D05DC1D0FF46A001B97E0 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		857D05DE1D0FF5BB001B97E0 /* CordovaManageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CordovaManageVC.h; sourceTree = "<group>"; };
+		857D05DF1D0FF5BB001B97E0 /* CordovaManageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CordovaManageVC.m; sourceTree = "<group>"; };
+		858238CF1D10FDB400E8C503 /* CPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPlugin.h; sourceTree = "<group>"; };
+		858238D01D10FDB400E8C503 /* CPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPlugin.m; sourceTree = "<group>"; };
+		F4A2A996C8BF56B6D467B46B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		857D05BD1D0FF2E3001B97E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3F4FBEB456A0C65F4FFB9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F33AB2C7AEC3890E29C8502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4A2A996C8BF56B6D467B46B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		857D05B71D0FF2E3001B97E0 = {
+			isa = PBXGroup;
+			children = (
+				857D05DC1D0FF46A001B97E0 /* config.xml */,
+				857D05DA1D0FF2FC001B97E0 /* Podfile */,
+				857D05C21D0FF2E3001B97E0 /* cordova_test */,
+				857D05C11D0FF2E3001B97E0 /* Products */,
+				C0430612C7B7611C6B88821E /* Pods */,
+				2F33AB2C7AEC3890E29C8502 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		857D05C11D0FF2E3001B97E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				857D05C01D0FF2E3001B97E0 /* cordova_test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		857D05C21D0FF2E3001B97E0 /* cordova_test */ = {
+			isa = PBXGroup;
+			children = (
+				857D05C61D0FF2E3001B97E0 /* AppDelegate.h */,
+				857D05C71D0FF2E3001B97E0 /* AppDelegate.m */,
+				857D05C91D0FF2E3001B97E0 /* ViewController.h */,
+				857D05CA1D0FF2E3001B97E0 /* ViewController.m */,
+				857D05DE1D0FF5BB001B97E0 /* CordovaManageVC.h */,
+				857D05DF1D0FF5BB001B97E0 /* CordovaManageVC.m */,
+				858238CF1D10FDB400E8C503 /* CPlugin.h */,
+				858238D01D10FDB400E8C503 /* CPlugin.m */,
+				857D05CF1D0FF2E3001B97E0 /* Assets.xcassets */,
+				857D05D11D0FF2E3001B97E0 /* LaunchScreen.storyboard */,
+				857D05D41D0FF2E3001B97E0 /* Info.plist */,
+				857D05C31D0FF2E3001B97E0 /* Supporting Files */,
+			);
+			path = cordova_test;
+			sourceTree = "<group>";
+		};
+		857D05C31D0FF2E3001B97E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				857D05C41D0FF2E3001B97E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0430612C7B7611C6B88821E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F4100D178481886DC49E3B5 /* Pods.debug.xcconfig */,
+				6E4A9CB9C37E9526EE3CEA76 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		857D05BF1D0FF2E3001B97E0 /* cordova_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857D05D71D0FF2E3001B97E0 /* Build configuration list for PBXNativeTarget "cordova_test" */;
+			buildPhases = (
+				55B17023D60D7123224F72B9 /* Check Pods Manifest.lock */,
+				857D05BC1D0FF2E3001B97E0 /* Sources */,
+				857D05BD1D0FF2E3001B97E0 /* Frameworks */,
+				857D05BE1D0FF2E3001B97E0 /* Resources */,
+				665C067536E70FDA1C7D88B8 /* Embed Pods Frameworks */,
+				4E719B8D30F51F50B921F633 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cordova_test;
+			productName = cordova_test;
+			productReference = 857D05C01D0FF2E3001B97E0 /* cordova_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		857D05B81D0FF2E3001B97E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Suneee;
+				TargetAttributes = {
+					857D05BF1D0FF2E3001B97E0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 857D05BB1D0FF2E3001B97E0 /* Build configuration list for PBXProject "cordova_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 857D05B71D0FF2E3001B97E0;
+			productRefGroup = 857D05C11D0FF2E3001B97E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				857D05BF1D0FF2E3001B97E0 /* cordova_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		857D05BE1D0FF2E3001B97E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857D05D31D0FF2E3001B97E0 /* LaunchScreen.storyboard in Resources */,
+				857D05D01D0FF2E3001B97E0 /* Assets.xcassets in Resources */,
+				857D05DB1D0FF2FC001B97E0 /* Podfile in Resources */,
+				857D05DD1D0FF46A001B97E0 /* config.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E719B8D30F51F50B921F633 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55B17023D60D7123224F72B9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		665C067536E70FDA1C7D88B8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		857D05BC1D0FF2E3001B97E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857D05E01D0FF5BB001B97E0 /* CordovaManageVC.m in Sources */,
+				857D05CB1D0FF2E3001B97E0 /* ViewController.m in Sources */,
+				857D05C81D0FF2E3001B97E0 /* AppDelegate.m in Sources */,
+				858238D11D10FDB400E8C503 /* CPlugin.m in Sources */,
+				857D05C51D0FF2E3001B97E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		857D05D11D0FF2E3001B97E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857D05D21D0FF2E3001B97E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		857D05D51D0FF2E3001B97E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		857D05D61D0FF2E3001B97E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		857D05D81D0FF2E3001B97E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4100D178481886DC49E3B5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cordova_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuzhengyao.cordova-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		857D05D91D0FF2E3001B97E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E4A9CB9C37E9526EE3CEA76 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cordova_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuzhengyao.cordova-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		857D05BB1D0FF2E3001B97E0 /* Build configuration list for PBXProject "cordova_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857D05D51D0FF2E3001B97E0 /* Debug */,
+				857D05D61D0FF2E3001B97E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857D05D71D0FF2E3001B97E0 /* Build configuration list for PBXNativeTarget "cordova_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857D05D81D0FF2E3001B97E0 /* Debug */,
+				857D05D91D0FF2E3001B97E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 857D05B81D0FF2E3001B97E0 /* Project object */;
+}
