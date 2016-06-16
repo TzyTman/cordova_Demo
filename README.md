@@ -1,0 +1,1 @@
+使用cordova4.0.1 支持加载h5页面 自定义插件 JavaScript与原生进行交互
