@@ -150,6 +150,8 @@
 				TargetAttributes = {
 					857D05BF1D0FF2E3001B97E0 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MA75X9QV5V;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -347,10 +349,12 @@
 			baseConfigurationReference = 3F4100D178481886DC49E3B5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MA75X9QV5V;
 				INFOPLIST_FILE = cordova_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tuzhengyao.cordova-test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuzhengyao.cordova;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -361,10 +365,12 @@
 			baseConfigurationReference = 6E4A9CB9C37E9526EE3CEA76 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MA75X9QV5V;
 				INFOPLIST_FILE = cordova_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tuzhengyao.cordova-test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuzhengyao.cordova;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
